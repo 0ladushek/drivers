@@ -39,7 +39,7 @@ class Transactions extends Controller
         }
 
         if ($newScore >= 0) {
-            // добавить тарзакцию
+            // добавить транзакцию
             $transactions = new Transaction;
             $transactions->type = (int) $_POST['type'];
             $transactions->value = (int) $_POST['summ'];
